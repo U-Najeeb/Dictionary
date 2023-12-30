@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.app--container {
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 40%;
+  margin: 2rem auto;
+  padding: 3rem;
+}
+.header--wrapper {
+  display: flex;
+}
+.search--button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: coral;
+  padding: 0.45rem;
+  width: 5rem;
+  border-radius: 0px 2px 2px 0px;
+}
+.search--image {
+  width: 2rem;
+  height: 2rem;
+}
+.search--field {
+  padding: 1rem;
+  border: 1px solid coral;
+  border-radius: 2px 0px 0px 2px;
+  outline: none;
+  width: 100%;
+}
+.search--field::placeholder {
+  font-family: "Poppins";
+  font-size: 0.9rem;
+}
+.phonetics--section {
+  padding-top: 1rem;
+}
+.phonetics--wrapper {
+  width: 51%;
+}
+.word {
+  font-size: 36px;
+  font-weight: 400;
+}
+.phonetics--box {
+  width: 6rem;
+}
+.phonetics {
+  font-style: italic;
+}
+.phonetics--row--2 {
+  padding: 0.7rem 0 0.7rem 0;
+  display: flex;
+  align-items: center;
+}
+.audio--box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.speaker--image {
+  width: 1.4rem;
+}
+.definition--wrapper {
+  width: 30rem;
+}
+.example--box {
+  padding-top: 1rem;
+}
+.hidden {
+  opacity: 0;
+}

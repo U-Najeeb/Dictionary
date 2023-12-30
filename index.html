@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="./assets/dictionary.png">
+    <title>Dictionary</title>
+</head>
+
+<body>
+    <div class="app--container">
+        <div class="app--wrapper">
+            <header class="header--section">
+                <div class="header--wrapper">
+                    <input type="text" placeholder="Enter The Word" class="search--field">
+                    <div class="search--button">
+                        <img src="./assets/search-btn.png" alt="" class="search--image">
+                    </div>
+                </div>
+            </header>
+            <div class="hidden">
+                <section class="phonetics--section">
+                    <div class="phonetics--wrapper">
+                        <div class="word--box">
+                            <h1 class="word"></h1>
+                        </div>
+                        <div class="phonetics--row--2">
+                            <div class="phonetics--box">
+                                <p class="phonetics"></p>
+                            </div>
+                            <div class="audio--box">
+                                <img src="./assets/speaker.png" alt="speaker" class="speaker--image">
+                                <audio class="audio" src="">
+                                </audio>
+                            </div>
+                        </div>
+    
+                    </div>
+                </section>
+                <section class="definition--section">
+                    <div class="definition--wrapper">
+                        <div class="definition--box">
+                            <h3 class="definition--heading">Definition:</h3>
+                            <p class="definition"></p>
+                        </div>
+                        <div class="example--box">
+                            <h3 class="example--heading">Example:</h3>
+                            <p class="example"></p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
