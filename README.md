@@ -17,7 +17,7 @@ To run the application, simply open the `index.html` file in a web browser. The 
 ```bash
 git clone https://github.com/your-username/dictionary-app.git
 cd dictionary-app
-
+```
 ## Usage
 
 1. Enter a word in the search field.
