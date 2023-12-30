@@ -81,3 +81,16 @@ body {
 .hidden {
   opacity: 0;
 }
+@media only screen and (max-width: 768px) {
+  .app--container {
+    width: 100%;
+    padding: 2.68rem;
+  }
+  .header--wrapper{
+    width: 100%;
+  }
+  .definition--wrapper {
+    /* display: none; */
+    width: 100%;
+  }
+}
