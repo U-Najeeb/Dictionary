@@ -4,7 +4,7 @@ A simple web-based dictionary application that allows users to look up the defin
 
 ## Features
 
-- **Search Functionality:** Users can enter a word in the search field and click the search button to retrieve information about the word from the [Dictionary API](https://api.dictionaryapi.dev/api/v2/entries/en/).
+- **Search Functionality:** Users can enter a word in the search field and click the search button to retrieve information about the word from the [Dictionary API](https://dictionaryapi.dev/).
 
 - **Dynamic UI Update:** The application dynamically updates the user interface with the word's definition, phonetics, and example sentences.
 
@@ -27,7 +27,7 @@ cd dictionary-app
 
 ## Dependencies
 
-- The application relies on the [Dictionary API]https://dictionaryapi.dev/for word definitions and phonetics.
+- The application relies on the [Dictionary API](https://dictionaryapi.dev/)for word definitions and phonetics.
 
 ## File Structure
 
@@ -37,7 +37,7 @@ cd dictionary-app
 
 ## Credits
 
-- The Dictionary API used in this project is provided by [Dictionary API]https://dictionaryapi.dev/.
+- The Dictionary API used in this project is provided by [Dictionary API](https://dictionaryapi.dev/).
 
 ## License
 
