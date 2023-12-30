@@ -15,8 +15,7 @@ const hidden = document.querySelector(".hidden");
 const updateUI = (data) => {
   // Log the entire data for reference
   const responseObj = data[data.length - 1];
-
-
+  console.log(responseObj)
   // Extracting information from the data
   const searchedWord = responseObj.word;
   const searchedPhonetics =
@@ -43,7 +42,11 @@ const updateUI = (data) => {
 
 
   // Extracting audio source and setting up the click event for the speaker image
-  const source = responseObj.phonetics[0]?.audio;
+  let audios
+  responseObj.phonetics.forEach((element) =>{
+    audios = element.audio
+  })
+  const source = audios;
   if (source) {
     speaker.addEventListener("click", (e) => {
       e.preventDefault();
