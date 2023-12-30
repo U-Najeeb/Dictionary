@@ -27,7 +27,7 @@ cd dictionary-app
 
 ## Dependencies
 
-- The application relies on the [Dictionary API](https://api.dictionaryapi.dev/api/v2/entries/en/) for word definitions and phonetics.
+- The application relies on the [Dictionary API]https://dictionaryapi.dev/for word definitions and phonetics.
 
 ## File Structure
 
@@ -37,7 +37,7 @@ cd dictionary-app
 
 ## Credits
 
-- The Dictionary API used in this project is provided by [Dictionary API](https://api.dictionaryapi.dev/api/v2/entries/en/).
+- The Dictionary API used in this project is provided by [Dictionary API]https://dictionaryapi.dev/.
 
 ## License
 
