@@ -15,7 +15,7 @@ const hidden = document.querySelector(".hidden");
 const updateUI = (data) => {
   // Log the entire data for reference
   const responseObj = data[data.length - 1];
-  console.log(responseObj)
+  
   // Extracting information from the data
   const searchedWord = responseObj.word;
   const searchedPhonetics =
