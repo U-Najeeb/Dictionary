@@ -13,8 +13,8 @@ const hidden = document.querySelector(".hidden");
 
 // Function to update the UI with data from the API
 const updateUI = (data) => {
-  // Log the entire data for reference
-  const responseObj = data[data.length - 1];
+  
+  const responseObj = data[0];
   
   // Extracting information from the data
   const searchedWord = responseObj.word;
@@ -42,11 +42,10 @@ const updateUI = (data) => {
 
 
   // Extracting audio source and setting up the click event for the speaker image
-  let audios
+  let source
   responseObj.phonetics.forEach((element) =>{
-    audios = element.audio
+    source = element.audio
   })
-  const source = audios;
   if (source) {
     speaker.addEventListener("click", (e) => {
       e.preventDefault();
@@ -64,10 +63,8 @@ const fetchApi = async (word) => {
       `https://api.dictionaryapi.dev/api/v2/entries/en/${word}`
     );
     const data = await response.json();
-    setTimeout(() => {
       updateUI(data);
       hidden.style.opacity = 1;
-    }, 100);
   } catch (error) {
     console.error("Error fetching data from the API:", error);
   }
